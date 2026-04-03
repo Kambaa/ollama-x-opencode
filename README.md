@@ -1,6 +1,8 @@
 # opencode setup with ollama
 Docs: https://opencode.ai/docs/config/
 
+https://opencode.ai/docs/providers/#ollama
+
 Setup `OLLAMA_DATA` in `.env` to wherever you need to point it to, then using
 this repo's `docker-compose.yml` simply run
 ```bash
