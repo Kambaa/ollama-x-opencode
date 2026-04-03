@@ -3,6 +3,8 @@ Docs: https://opencode.ai/docs/config/
 
 https://opencode.ai/docs/providers/#ollama
 
+If tool calls aren’t working, try increasing num_ctx in Ollama. Start around 16k - 32k.
+
 Setup `OLLAMA_DATA` in `.env` to wherever you need to point it to, then using
 this repo's `docker-compose.yml` simply run
 ```bash
